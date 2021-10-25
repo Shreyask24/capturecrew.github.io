@@ -123,21 +123,31 @@ body
     border-radius: 10px 10px 10px 10px; 
 } 
 
-@media (min-width: 90px) 
+@media only screen and (max-width: 900px) 
 {
-    body
-{
-   height: 100vh;
- 
+    html,body
+    {
+        overflow-x: hidden;
+    }
 
-}
+
 #picture
 {
     height: 20vh;
   width: 30vh;
     padding: 0 2em;
 }
+
+#expandedImg
+{
+    width: 100% !important;
+} 
+
+
 }
+
+
+
 
 #aboutus
 {

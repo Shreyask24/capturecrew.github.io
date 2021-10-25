@@ -23,6 +23,7 @@
 <a name="5"></a>
 
 <body id="body">
+
     <style>
 
 
@@ -68,7 +69,7 @@ body {
 /* Expanding image text */
 #imgtext {
   position: absolute;
-  bottom: 50px;
+  bottom: 40px;
   right: 15px;
   background-color: black;
   color: white;
@@ -132,6 +133,16 @@ body {
 
        }
     
+       #expandedImg
+       {
+         width: 30%;
+       }
+
+       #picture
+       {
+         width: 32vh;;
+         height: 30vh;
+       }
         </style>
         </head>
         <body>
@@ -283,11 +294,12 @@ function myFunction(imgs) {
 
         }
 
-
-   
-  
-                    
+       
+        
     </script>
+
+
+
 
 
 
@@ -298,6 +310,8 @@ function myFunction(imgs) {
       once: true
     });
   </script>
+
+  
 <br>
 <br>
 
@@ -374,12 +388,13 @@ function myFunction(imgs) {
         <!-- <div > -->
             <div width='10%' align='center'>
                 
+        
             
               
               <!-- The four columns -->
               <div class="row" >
                 <div class="column" data-aos="fade-left" data-aos-once= 'false'>
-                  <a href="#7"> <img src="best.jpg" alt="Silence Between Nature" height="300" width="200"onclick="myFunction(this);" ></a>   
+                  <a href="#7" > <img src="best.jpg" alt="Silence Between Nature" height="300" width="200"onclick="myFunction(this);"  ></a>   
                 </div> 
                 <div class="column" data-aos="fade-right" data-aos-once= 'false'> 
                    
@@ -402,9 +417,9 @@ function myFunction(imgs) {
               </div>
 
 
-              <div class="container">  <a name="7"></a>  <a name="8"></a>  <a name="9"></a>  <a name="10"></a>  <a name="11"></a>  <a name="12">  </a> <a name="13"></a>  <a name="14"></a>   
-              <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> 
-                <img id="expandedImg" style="width:100%">
+              <div class="container">  <a name="7" target="_blank"> </a>  <a name="8"></a>  <a name="9"></a>  <a name="10"></a>  <a name="11"></a>  <a name="12">  </a> <a name="13"></a>  <a name="14"></a>   
+              <span  onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> 
+                <img id="expandedImg"   >
                 
                 <div id="imgtext"></div>
               </div>
@@ -434,13 +449,6 @@ function myFunction(imgs) {
            <a href="#14"><img src="temple.jpg" alt="Temple View "  height="250" width="350"  onclick="myFunction(this);"></a> 
           
 
-
-        <div class="container" >
-        <span onclick="this.parentElement.style.display='none'" class="closebtn" >&times;</span> 
-          <img id="expandedImg" style="width:100%">
-          
-          <div id="imgtext"></div>
-        </div>
       
 
     
@@ -542,7 +550,7 @@ function myFunction(imgs) {
 
 
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
+<script type="text/javascript" >
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];

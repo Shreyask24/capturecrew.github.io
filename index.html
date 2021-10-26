@@ -202,8 +202,13 @@ function myFunction(imgs) {
 
 
         function darkmode() {
+
+
             document.getElementById("whitemode").style.visibility = "visible"
             document.body.style.backgroundColor = "black"
+
+            var whitemode=document.getElementById('blackmode');
+            whitemode.style.position='absolute';
 
             var darkmode = document.getElementById('body');
             darkmode.style.backgroundColor = 'black';
@@ -238,7 +243,6 @@ function myFunction(imgs) {
 
             var list = document.getElementById('list')
             list.style.color = 'black'
-
 
         }
 

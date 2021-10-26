@@ -87,7 +87,7 @@ body
     color: rgb(19, 17, 17);
 }
 
-.blackmode
+#darkmode
 {
     visibility: visible;
     background-color: black;
@@ -104,16 +104,12 @@ body
 {
     visibility: hidden;
     position: absolute;
-   
-    border: '1';
     background-color: rgb(245, 245, 245);
     color: rgb(8, 8, 8);
     font-size: medium;
     margin: 20px 15px;
-   
     border-bottom: rgb(13, 13, 17);
     padding: 6px 26px;
-
     text-decoration: none;
     border-radius: 10px 10px 10px 10px; 
 } 

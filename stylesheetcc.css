@@ -102,14 +102,15 @@ body
 
 #whitemode
 {
+
     visibility: hidden;
-    position: absolute;
+    position: relative;
     background-color: rgb(245, 245, 245);
     color: rgb(8, 8, 8);
     font-size: medium;
-    margin: 20px 15px;
+    margin: 22px 20px;
     border-bottom: rgb(13, 13, 17);
-    padding: 6px 26px;
+    padding: 4px 10px;
     text-decoration: none;
     border-radius: 10px 10px 10px 10px; 
    
@@ -137,18 +138,6 @@ body
 {
     width: 100% !important;
 } 
-
-#whitemode
-{
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-#darkmode
-{
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
 
 }
 

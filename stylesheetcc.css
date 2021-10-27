@@ -112,7 +112,7 @@ body
     padding: 6px 26px;
     text-decoration: none;
     border-radius: 10px 10px 10px 10px; 
-    overflow-x: hidden;
+   
 } 
 
 
@@ -141,11 +141,13 @@ body
 #whitemode
 {
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 #darkmode
 {
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 }

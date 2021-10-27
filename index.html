@@ -96,6 +96,9 @@ body {
 
 
 
+
+
+
         body {
           margin: 0;
           font-family: 'Times New Roman', Times, serif;
@@ -173,20 +176,6 @@ body {
     <script>
 
 
-function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
- 
-  imgText.innerHTML = imgs.alt;  
- 
-  expandImg.parentElement.style.display = "block";
-  window.scroll(0,2400);
-}
-
-
-
-
 
 
 
@@ -204,6 +193,7 @@ function myFunction(imgs) {
 
             document.getElementById("whitemode").style.visibility = "visible"
             document.body.style.backgroundColor = "black";
+           
 
             var darkmode = document.getElementById('body');
             darkmode.style.backgroundColor = 'black';
@@ -225,9 +215,11 @@ function myFunction(imgs) {
             div4.style.backgroundColor = 'Black';
             div4.style.color = 'white';
 
+          
+
             var div150= document.getElementById('Email')    
             div150.style.color='rgb(201, 188, 236)';
-            
+            document.getElementById("darkmode").style.visibility = "hidden"
             // var WhiteEmail=document.getElementById('WhiteEmail');
             // WhiteEmail.style.color='White'
             // WhiteEmail.style.backgroundColor='Blue'
@@ -240,8 +232,10 @@ function myFunction(imgs) {
             list.style.color = 'black'
 
 
-            var whitemode=document.getElementById('darkmode');
-            whitemode.style.display='none';
+            // var whitemode=document.getElementById('darkmode');
+            // whitemode.style.display='none';
+
+  
         }
 
 
@@ -250,6 +244,7 @@ function myFunction(imgs) {
             document.getElementById("whitemode").style.visibility = "hidden"
             document.body.style.backgroundColor = "white"
 
+            document.getElementById("darkmode").style.visibility = "visible"
 
             var whitemode = document.getElementById('body');
             whitemode.style.backgroundColor = 'rgb(241, 228, 215)';
@@ -300,12 +295,22 @@ function myFunction(imgs) {
         }
 
 
-      
-       
+
+        function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+ 
+  imgText.innerHTML = imgs.alt;  
+ 
+  expandImg.parentElement.style.display = "block";
+  window.scroll(0,2400);
+}
+
+    
+
         
     </script>
-
-
 
 
 
@@ -318,34 +323,46 @@ function myFunction(imgs) {
     });
   </script>
 
+
+
+
+<video id="diwali" autoplay loop muted autobuffer preload="auto" src="diwali1.mp4"></video>
+
   
 <br>
 <br>
-
+<br>
     <div  data-aos-duration="1000" data-aos="zoom-in">
 
      <center>  <img id="picture" width="800" height="300" src="newlogo.jpeg"></center> 
 
     </div>
 
+
+
     <br>
-
-    <div width="50%" align="right">
-      
-        <input type="button" id="whitemode"  value="White mode" onclick="whitemode()">
-
-        <input type="button" id="darkmode"  value="Dark Mode" onclick="darkmode()">
-
-
-    </div>
-
     
+
+   
+  
+
     <br>
 
 
 
     <div id="div1" border="1" class="fourthclass" data-aos-duration="1000" data-aos="zoom-in" >
        
+      <div width="100%" align="left">
+      
+        <input type="button" id="whitemode"  value="White mode" onclick="whitemode()"  >
+
+        <input type="button" id="darkmode"  value="Dark Mode" onclick="darkmode()">
+
+
+    </div>
+    <br>
+    <br>
+
             <br>
              <center > <h2 id="aboutus">About Us </h2><a name="1"></a> </center>
         
@@ -546,6 +563,9 @@ function myFunction(imgs) {
 
         </div>
 
+
+
+    
 
         <div id="div5" class="buttonclass">
 

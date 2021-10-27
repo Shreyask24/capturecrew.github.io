@@ -181,7 +181,7 @@ function myFunction(imgs) {
   imgText.innerHTML = imgs.alt;  
  
   expandImg.parentElement.style.display = "block";
-  window.scroll(0,3400);
+  window.scroll(0,2400);
 }
 
 
@@ -228,9 +228,9 @@ function myFunction(imgs) {
             var div150= document.getElementById('Email')    
             div150.style.color='rgb(201, 188, 236)';
             
-            var WhiteEmail=document.getElementById('WhiteEmail');
-            WhiteEmail.style.color='White'
-            WhiteEmail.style.backgroundColor='Blue'
+            // var WhiteEmail=document.getElementById('WhiteEmail');
+            // WhiteEmail.style.color='White'
+            // WhiteEmail.style.backgroundColor='Blue'
     
             var div5 = document.getElementById('div5');
             div5.style.backgroundColor = 'Black';
@@ -344,7 +344,7 @@ function myFunction(imgs) {
 
 
 
-    <div id="div1" border="1" class="fourthclass" data-aos-duration="1000" data-aos="zoom-in">
+    <div id="div1" border="1" class="fourthclass" data-aos-duration="1000" data-aos="zoom-in" >
        
             <br>
              <center > <h2 id="aboutus">About Us </h2><a name="1"></a> </center>
@@ -432,7 +432,15 @@ function myFunction(imgs) {
 
 </div>
 
+<div width='10%' align='center'>
 
+  <div class="container">    
+    <span  onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> 
+      <img id="expandedImg"   > 
+      
+      <div id="imgtext"></div>
+    </div>
+</div>  
 
      
     
@@ -464,15 +472,7 @@ function myFunction(imgs) {
 
 
 
-    <div width='10%' align='center'>
-
-      <div class="container">    
-        <span  onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> 
-          <img id="expandedImg"   > 
-          
-          <div id="imgtext"></div>
-        </div>
-    </div>  
+   
 
     <br>
 

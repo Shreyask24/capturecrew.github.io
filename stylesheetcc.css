@@ -128,10 +128,10 @@ body
 
 #picture
 {
-    height: 500px;
-    width: 800vh;
-    visibility: hidden;
-    
+    height: 50vw;
+    width: 50vw ;
+    margin-left: 42vw;
+
 }
 
 
@@ -146,9 +146,9 @@ body
 
 #picture
 {
-    height: 30vh;
-    width: 30vh;
-    padding: 1 0em;
+  
+    margin-left: 23vw;
+    /* padding: 1 0em; */
    
 }
 

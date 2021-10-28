@@ -164,6 +164,8 @@ position: absolute;
 width: 100vw;
 height: 100vw;
 overflow: hidden;
+overflow-y: hidden;
+overflow-x: hidden;
 
 }
 

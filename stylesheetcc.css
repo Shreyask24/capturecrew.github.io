@@ -130,10 +130,17 @@ body
 {
     height: 50vw;
     width: 50vw ;
-    margin-left: 42vw;
+   overflow: hidden;
+
 
 }
 
+.picture
+{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
 
 @media only screen and (max-width: 900px) 
 {
@@ -142,15 +149,6 @@ body
     {
         overflow-x: hidden;
     }
-
-
-#picture
-{
-  
-    margin-left: 23vw;
-    /* padding: 1 0em; */
-   
-}
 
 
 #expandedImg
@@ -163,8 +161,8 @@ body
 {
 
 position: absolute;
-width: 375px;
-height: 400px;
+width: 100vw;
+height: 100vw;
 overflow: hidden;
 
 }

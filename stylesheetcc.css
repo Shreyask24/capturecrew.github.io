@@ -153,15 +153,12 @@ body
 
 #wrapper
 {
-    position: absolute;
-    z-index: 10;
     -webkit-overflow-scrolling: touch;
 }
 
 #scroller
 {
-    position: absolute;
-    z-index: 1;
+        z-index: 100;
 }
 
 #expandedImg

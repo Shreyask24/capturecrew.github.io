@@ -148,8 +148,21 @@ body
     html,body
     {
         overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
     }
 
+#wrapper
+{
+    position: absolute;
+    z-index: 10;
+    -webkit-overflow-scrolling: touch;
+}
+
+#scroller
+{
+    position: absolute;
+    z-index: 1;
+}
 
 #expandedImg
 {

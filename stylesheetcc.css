@@ -212,8 +212,8 @@ overflow-x: hidden;
 
     background-color: black;
     border-radius: 8px 8px 8px 8px;
-    width: 50vw;
-    height: 50vw;
+    width: 60vw;
+    height: 60vw;
 
 }
 
@@ -222,7 +222,7 @@ overflow-x: hidden;
 
     width: 40vw !important;
     height: 40vw !important;
-    margin-top: 19px;
+    margin-top: 35px;
    overflow: hidden;
   /* justify-content: center; */
     

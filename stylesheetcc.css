@@ -128,18 +128,33 @@ body
 
 #picture
 {
-    height: 50vw;
-    width: 50vw ;
+    margin-top: 15px;
    overflow: hidden;
-
+  /* justify-content: center; */
+    
+   border: 2px solid white;
+    text-decoration: none;
+    position: relative;
+    /* display: inline; */
 
 }
 
 .picture
 {
-    display: flex;
-    justify-content: center;
     overflow: hidden;
+    /* justify-content: center; */
+      
+     /* border: 2px solid white; */
+      text-decoration: none;
+      position: relative;
+      /* display: inline; */
+
+    background-color: black;
+    border-radius: 8px 8px 8px 8px;
+    width: 200px;
+    height: 200px;
+ 
+   
 }
 
 @media only screen and (max-width: 900px) 
@@ -190,6 +205,32 @@ overflow-x: hidden;
 {
     margin-left: 68vw; 
     overflow: hidden;
+}
+
+.picture
+{
+
+    background-color: black;
+    border-radius: 8px 8px 8px 8px;
+    width: 50vw;
+    height: 50vw;
+
+}
+
+#picture 
+{
+
+    width: 40vw !important;
+    height: 40vw !important;
+    margin-top: 19px;
+   overflow: hidden;
+  /* justify-content: center; */
+    
+   border: 2px solid white;
+    text-decoration: none;
+    position: relative;
+    /* display: inline; */
+
 }
 
 }
